@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Diamantes {
+public class Diamonds {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int times = in.nextInt();
@@ -27,5 +27,6 @@ public class Diamantes {
 
             System.out.println(countDiamonds);
         }
+        in.close();
     }
 }

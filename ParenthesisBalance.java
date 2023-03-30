@@ -41,6 +41,6 @@ public class ParenthesisBalance {
                 }
             }
         }
-
+        in.close();
     }
 }
